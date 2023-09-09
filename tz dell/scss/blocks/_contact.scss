@@ -198,3 +198,76 @@
     bottom: -125px;
     left: 0px;
 }
+@media (max-width: 375px) {
+    .contact__left-text{
+        position: relative;
+    right: 69px;
+    bottom: 63px;
+    }
+    .contact_text-title{
+        color: #292D32;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+margin-bottom: 15px;
+    }
+    .contact_text-subtitle{
+        color: #838383;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+width: 265px;
+    }
+    .contact__left-icon{
+        margin-right: 14px;
+    padding-left: 7px;
+    position: relative;
+    bottom: 80px;
+    }
+    .contact__left-title{
+        bottom: 92px;
+    }
+    .contact__left-subtitle{
+        color: #292D32;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+bottom: 94px;
+right: 97px;
+width: 391px;
+    }
+    .contact__text1 {
+        margin-bottom: 7px;
+    }
+    .contact__text2 {
+        margin-bottom: 5px;
+    }
+    .contact__left-social img {
+        position: relative;
+        width: 65px;
+        height: 26.158px;
+        right: 71px;
+        bottom: 116px;
+    }
+    .iphone {
+        width: 120.925px;
+        height: 254.047px;
+        left: 205px;
+        bottom: 239px;
+        transform: rotate(15deg);
+    }
+    .contact__right-title{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

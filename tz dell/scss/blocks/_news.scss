@@ -135,3 +135,48 @@
 .news__card-bottom{
     margin-top: -25px;
 }
+@media (max-width: 375px) {
+    .news__text{
+        position: relative;
+        bottom: 135px;
+        right: 6px;
+    }
+    .news__title{
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 19px;
+    }
+    .news__subtitle{
+        color: var(--Unnamed-Color, #838383);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; 
+        width: 344px;
+    }
+    .news__botton{
+        position: relative;
+        left: 0px;
+    }
+    .news__btn{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: 162px;
+        right: 109px;
+    }
+    .news__span{
+        position: relative;
+        top: 162px;
+        left: 61px;
+    }
+    .news__cards{
+        flex-direction: column;
+    }
+    
+}

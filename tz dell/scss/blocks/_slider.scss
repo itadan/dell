@@ -62,10 +62,10 @@
 .swiper-title{
   width: 163px;
   color: var(--Unnamed-Color, #838383);
-font-size: 18px;
-font-weight: 300;
-line-height: 133.687%; /* 24.064px */
-margin-bottom: 11px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 133.687%; /* 24.064px */
+  margin-bottom: 11px;
 }
 .swiper-subtitle{
   width: 420px;
@@ -124,4 +124,86 @@ line-height: 130%;
   top: 24px;
   left: 122px!important;
   z-index: -1;
+}
+@media (max-width: 375px) {
+.newfotoswiper{
+  position: relative;
+  top: 300px;
+  right: 110px;
+  width: 327px;
+  height: 325px;
+}
+.swiperdellimgbg{
+  position: absolute;
+  width: 293px;
+  height: 77px;
+  top: -57px!important;
+  left: -97px!important;
+}
+.swiper-text{
+  position: relative;
+  width: 446px;
+  height: 95px;
+  top: 57px;
+  left: -20px;
+}
+.swiper-title{
+  color: var(--Unnamed-Color, #838383);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 133.687%;
+}
+.swiper-subtitle{
+  position: relative;
+  color: #292D32;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 256px;
+  top: -9px;
+  left: 15px;
+}
+.btnblockswiper{
+  position: relative;
+  left:-137px;
+  top: 17px;
+  z-index: 123123;
+  .swiper__btn{
+    width: 45px;
+    height: 45px;
+  }
+}
+.swiper-button-next{
+  width: 64px!important;
+  height: 14px!important;
+  
+}
+.vectorblock{
+  position: relative;
+  left: 325px;
+  top: -106px;
+}
+.swiper-pagination{
+  position: absolute;
+  transform: rotate(90deg)!important;
+  left: -460px!important;
+  top: -100px!important;
+}
+.swiper-pagination-bullet{
+  width: 5px!important;
+  height: 5px!important ;
+}
+.swiper-dell{
+  position: relative;
+  left: -115px!important;
+  top: 362px;
+  color: #292D32;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
 }
