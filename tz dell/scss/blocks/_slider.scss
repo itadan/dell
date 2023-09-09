@@ -1,0 +1,127 @@
+/* Стили для контейнера слайдера */
+.swiper-container {
+  width: 100%;
+  height: 683px;
+  overflow: hidden; 
+  margin-bottom: 164px;
+}
+
+/* Стили для слайдов */
+.swiper-slide {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  opacity: 0; 
+  transition: opacity 0.5s;
+  transform: translateX(20px); 
+}
+
+/* Стили для переключателей */
+.swiper-button-next{
+  width: 125px!important;
+  height: 21px!important;
+  cursor: pointer;
+  position: relative;
+  right: 340px!important;
+}
+.vectorblock{
+  position: relative;
+  bottom: 163px;
+}
+.swiper-pagination {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);  
+  padding-left: 758px;
+  padding-bottom: 274px;
+  
+ 
+}
+.swiper-pagination-bullet{
+  background-color: #292D32!important;
+}
+.scroll{
+  position: absolute;
+  z-index: 20;
+  top: 590px;
+  left: 252px;
+  p{
+    position: relative;
+    top: -61px;
+    right: 44px;
+    transform: rotate(-90deg);
+  }
+}
+.swiper-text{
+  position: relative;
+  top: 234px;
+  left: 363px;
+}
+.swiper-title{
+  width: 163px;
+  color: var(--Unnamed-Color, #838383);
+font-size: 18px;
+font-weight: 300;
+line-height: 133.687%; /* 24.064px */
+margin-bottom: 11px;
+}
+.swiper-subtitle{
+  width: 420px;
+  color: #292D32;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: start;
+}
+.btnblockswiper{
+  position: relative;
+  right: 857px;
+  top: 58px;
+}
+.swiper__btn {
+  width: 55px;
+  height: 55px;
+  background-color: #33A9FF;
+  color: #fff;
+  border-radius: 27.5px;
+  border: 0;
+  margin-right: 8.3px;
+  align-items: start;
+}
+.swiper__str {
+  padding-top: 4px;
+  padding-left: 2px;
+}
+.swiper__span {
+  color: #292D32;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  align-items: center;
+}
+.swiper-img{
+  position: relative;
+  top: -160px;
+  left: 110px;
+}
+.swiper-dell{
+  width: 181px;
+  text-align: start;
+  position: relative;
+  bottom: 313px;
+  left: 1313px;
+
+  color: #292D32;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+.swiperdellimgbg{
+  position: absolute;
+  top: 24px;
+  left: 122px!important;
+  z-index: -1;
+}
